@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Login-Sign Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b9835eaca5.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+      <div class="container" id="container">
+        <div class="overlay-container">
+                <div class="overlay-text">
+                  <i class="fas fa-search"> Follow your interest</i>
+                  <i class="fas fa-user-friends"> Hear what people are talking about</i>
+                  <i class="far fa-comment"> Join the conversation</i>
+                </div>
+        </div>
+        <div class="form-container">
+                  <form action="#" id="log-in" class="input-group">
+                    <input type="text" class="input-field" placeholder="Phone, email, or username Id" required>
+                    <input type="password" class="input-field" placeholder="Password" required>
+                    <button class="login-btn" type="submit">Log in</button>
+                  </form>
+                  <form action="#" id="sign-up" class="input-group">
+                    <div class="logo">
+                      <img src="./image/tweetBird.png" alt="tweetBird" width="8%">
+                    </div>
+                    <h1>Create your account</h1>
+                      <div class="social-container">
+                        <a href="#" class="google btn">
+                          <i class="fab fa-google"></i> Login with Google</a>
+                        <a href="#" class="fb btn">
+                          <i class="fab fa-facebook-f"></i> Login with Facebook </a>
+                        <p>Or sign up manually:</p>
+                      <input type="text" class="input-field" placeholder="Name" required>
+                      <input type="text" class="input-field" placeholder="Email" required>
+                      <input type="password" class="input-field" placeholder="Password" required>
+                    <span class="signup">By signing up, you agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>, including <a href="#">Cookie Use</a>. Others will be able to find me by email when provided. <a href="#">Privacy Options.</a></span>
+                      <button class="signup-btn" type="submit">Sign Up</button>
+                  </form>  
+        </div>
+      </div>
+  </body>
+</html>
